@@ -187,22 +187,32 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
 }
 
 .constellations a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: 'starlight-font';
-    font-size: 80px;
+    font-size: 100px;
     transition: 0.2s;
     animation-name: stars;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    margin-bottom: 100px;
 }
 
 .constellations a:hover {
     text-decoration: none;
     color: rgb(255, 255, 255);
     opacity: 0.5;
+}
+
+img {
+    display: block;
+    max-width: 600px;
+    margin: 100px auto;
 }
